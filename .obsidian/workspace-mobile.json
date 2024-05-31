@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "680c9ecfbb915fe6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d1cf9502c7ec1b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5f30259945b0e93",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2d00fbbcc922626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스터디/강화학습/Pytorch/Pytorch for RL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db38c5172a0d64a2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ffe1351284603fd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c30745c4dfada6b5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c996953eca28f32b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "96fed6246b269e6f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4e19f316fcd420c8",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "7171747ec74a730e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "06be271dbaafd935",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "eb8bff240cef062e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3d91fa7435033fe4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "about.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "df48486181d893a5",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "about.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5f099fb6d1d8294c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "about.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-file-cleaner:Clean files": false,
+      "obsidian-omnivore:Omnivore": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-projects:Open projects": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "ffe1351284603fd2",
+  "lastOpenFiles": [
+    "index.md",
+    "독서/독서 리스트/움베르토에코-논문 잘 쓰는 법.md",
+    "독서/독서 계획.md",
+    "스터디/강화학습/Book/BartoSutton/Ch13 Policy Gradient Methods-Intro.md",
+    "스터디/강화학습/Book/BartoSutton/Ch-2 Multi-armed bandit 내 스타일.md",
+    "Excalidraw/Drawing 2023-12-27 17.10.21.excalidraw.md",
+    "스터디/강화학습/Book/BartoSutton/CH2 Multi-armed Bandits.md",
+    "스터디/강화학습/Book/BartoSutton/Ch13 Policy Gradient Methods.md",
+    "assets/Pasted image 20231206212833.png",
+    "assets/Pasted image 20231203204717.png",
+    "assets/Pasted image 20230929225346.png",
+    "assets/Pasted image 20231021123734.png",
+    "스터디/강화학습/Book/BartoSutton/CH5 Monte Carlo Methods.md",
+    "스터디/강화학습/HugginFace/Actor critic.md",
+    "스터디/프로그래밍/CS/책/Introduction to algorithm/CH1 - Foundation.md",
+    "스터디/프로그래밍/코테/LeetCode/01-Easy/13. Roman to Integer.md",
+    "Project/IT프로젝트/블록체인 실무응용.md",
+    "독서/독서 리스트/Learn how to learn.md",
+    "스터디/기타/Learn how to learn/learn how to learn.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
+    "assets/Coursera AFWQTF8Q9ZJF.pdf",
+    "스터디/강화학습/1슬라이드 프로포절.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week2.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week3.md",
+    "Project/Archi-project/파라다이스 시티 -.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week5.md",
+    "_00_private/압구정 현대아파트.md",
+    "스터디/강화학습/HugginFace/Unit8-2 POO.md",
+    "스터디/프로그래밍/코테/LeetCode/02-Medium/3. Longest Substring Without Repeating Characters.md",
+    "스터디/강화학습/HugginFace/Unit8-1-POO.md",
+    "스터디/프로그래밍/PyTorch/01.IntroToPyTorch/Datasets and DataLoaders.md",
+    "assets/Pasted image 20231105094029.png",
+    "assets/Pasted image 20231105113829.png",
+    "assets/Pasted image 20231105114121.png",
+    "assets/Pasted image 20231105095940.png",
+    "assets/Pasted image 20231105095028.png",
+    "assets/Pasted image 20231105115954.png",
+    "assets/Coursera GBJBZH245C23.pdf",
+    "스터디/선형대수/Mathematics for Machine Learning and Data Science Specialization/Linear Algebra for Machine Learning and Data Science",
+    "스터디/선형대수/Mathematics for Machine Learning and Data Science Specialization/Calculus for Machine Learning and Data Science",
+    "스터디/선형대수/Mathematics for Machine Learning and Data Science Specialization",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "스터디/강화학습/Pytorch",
+    "assets/linear combinations.pdf",
+    "_canvas/꿈 노트.canvas"
+  ]
+}

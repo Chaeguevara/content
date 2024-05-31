@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "3b9e34d5e228d389",
+    "type": "split",
+    "children": [
+      {
+        "id": "799226c2103f940b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9c539a9d3cd0783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "002df3ef7c4eaca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b30aae7bbea79c3d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/lec10.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "08a52c74a4616aaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "f710aa9d6d88d520",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad0fee23ebfff118",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e72bd3377ba27ee5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "20231009212250",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94c95e2ae505cbff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "right": {
+    "id": "ab528ff135eeeaef",
+    "type": "split",
+    "children": [
+      {
+        "id": "6105bee9ef95a41c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be08d11260334736",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a55e31eeae17a90c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a20200d1897a2baf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "24f36c9b32dd5bd6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md"
+              }
+            }
+          },
+          {
+            "id": "9aceea210b59b7bf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "c2ac90d41802afe3",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-file-cleaner:Clean files": false,
+      "obsidian-omnivore:Omnivore": false
+    }
+  },
+  "active": "a9c539a9d3cd0783",
+  "lastOpenFiles": [
+    "스터디/프로그래밍/CS/02-Core/6006/Problem Set 3.md",
+    "스터디/프로그래밍/CS/02-Core/6006/Recitation 5 - Linear Sorting.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week4 - higher order functions.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week5.md",
+    "index.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
+    "Excalidraw/lec10.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week3.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week2.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Programming Language, PartB,UW.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week1-Code.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Programming Language, PartA, UW.md",
+    "스터디/프로그래밍/CS/02-Core/6006/6006.md",
+    "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+    "스터디/프로그래밍/CS/01-Intro/6.0001.md",
+    "스터디/프로그래밍/CS/01-Intro/CS107-Programming Paradigms.md",
+    "스터디/프로그래밍/CS/01-Intro/6.S096-Introduction To C and C++.md",
+    "assets/Pasted image 20240530185136.png",
+    "assets/Pasted image 20240530182215.png",
+    "assets/Pasted image 20240530174145.png",
+    "assets/Pasted image 20240530173140.png",
+    "Excalidraw/Recitation5.excalidraw.md",
+    "Excalidraw/RL Figures.excalidraw.md",
+    "Excalidraw/threejs.md",
+    "Excalidraw/Drawing 2024-05-06 20.32.17.excalidraw.md",
+    "Excalidraw/다시excalidraw.md",
+    "Excalidraw/블로그용excalidraw.md",
+    "Excalidraw/소상공인지도.excalidraw.md",
+    "about.md",
+    "Project/DfMA/파라다이스 시티(2018).md",
+    "assets/Pasted image 20240523171033.png",
+    "assets/Pasted image 20240523170852.png",
+    "assets/Pasted image 20240523170806.png",
+    "assets/Pasted image 20240523170715.png",
+    "assets/Pasted image 20240523165841.png",
+    "assets/Pasted image 20240523165819.png",
+    "Omnivore/2024-05-03",
+    "Omnivore",
+    "Excalidraw/Scripts/Untitled.canvas",
+    "스터디/프로그래밍/CS/02-Core/6006",
+    "Project/Untitled",
+    "Project/AEC Software Engineering",
+    "_canvas/꿈 노트.canvas",
+    "Project/DfMA",
+    "HTML import",
+    "Project/지도 프로젝트",
+    "assets/Coursera SD6DW57ZV8KH.pdf",
+    "assets/Coursera VSXXHWE29XZN.pdf",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "acceptance": "number",
+    "first attempt date": "date",
+    "last attempt": "date",
+    "created date": "date",
+    "category": "multitext",
+    "updated": "date",
+    "date": "date",
+    "modified": "date",
+    "due date": "date",
+    "완료됨": "checkbox",
+    "중요도": "number",
+    "중요도(10)": "number",
+    "Progress": "number",
+    "Progress(10)": "number"
+  }
+}

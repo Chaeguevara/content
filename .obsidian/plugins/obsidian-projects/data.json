@@ -1,0 +1,192 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "category": {}
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 373
+              },
+              "path": {
+                "width": 278,
+                "hide": true
+              },
+              "acceptance rate": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "created date": {
+                "hide": true
+              },
+              "excalidraw-plugin": {
+                "hide": true
+              },
+              "updated": {
+                "hide": true
+              },
+              "modified": {
+                "hide": true
+              },
+              "last attempt": {
+                "hide": true
+              },
+              "first attempt date": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "category",
+              "due date",
+              "중요도",
+              "Progress(10)",
+              "lastmod",
+              "완료됨",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "완료됨",
+                "operator": "is-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due date",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "중요도",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "5c2f281d-2ece-4c75-a75a-9cebd71b7632",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due date",
+            "checkField": "완료됨"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "category",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"ComputerScience\"]"
+                }
+              },
+              {
+                "color": "#04ff00",
+                "condition": {
+                  "field": "category",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"rl\"]"
+                }
+              },
+              {
+                "color": "#fff700",
+                "condition": {
+                  "field": "category",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"독서\"]"
+                }
+              },
+              {
+                "color": "#3700ff",
+                "condition": {
+                  "field": "category",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"math\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "baee8b22-2db9-445f-a647-728d4a75c707",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "name",
+              "category"
+            ],
+            "fitStyle": "cover",
+            "coverField": "title"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0f635c85-6c1a-44ba-8f6a-46bbd459868f",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "a3f5526e-b487-4612-b3bb-84fb406fa52d",
+      "name": "myDSPlan"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
