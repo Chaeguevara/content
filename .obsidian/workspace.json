@@ -4,40 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "799226c2103f940b",
+        "id": "b76825c062be6209",
         "type": "tabs",
         "children": [
           {
-            "id": "a9c539a9d3cd0783",
+            "id": "3933ce8302f7c6f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "002df3ef7c4eaca7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b30aae7bbea79c3d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/lec10.md"
               }
             }
           }
@@ -107,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md"
+                "file": "index.md"
               }
             }
           },
@@ -169,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md"
+                "file": "index.md"
               }
             }
           }
@@ -197,22 +175,22 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "a9c539a9d3cd0783",
+  "active": "3933ce8302f7c6f5",
   "lastOpenFiles": [
+    "Excalidraw/lec10.md",
+    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
+    "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
     "스터디/프로그래밍/CS/02-Core/6006/Problem Set 3.md",
     "스터디/프로그래밍/CS/02-Core/6006/Recitation 5 - Linear Sorting.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week4 - higher order functions.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week5.md",
     "index.md",
-    "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
-    "Excalidraw/lec10.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week3.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week2.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Programming Language, PartB,UW.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week1-Code.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Programming Language, PartA, UW.md",
     "스터디/프로그래밍/CS/02-Core/6006/6006.md",
-    "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
     "스터디/프로그래밍/CS/01-Intro/6.0001.md",
     "스터디/프로그래밍/CS/01-Intro/CS107-Programming Paradigms.md",
     "스터디/프로그래밍/CS/01-Intro/6.S096-Introduction To C and C++.md",
