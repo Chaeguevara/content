@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "스터디/3D/Blender/Blender Learning Materials.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "스터디/3D/Blender/Blender Learning Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "스터디/3D/Blender/Blender Learning Materials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "스터디/3D/Blender/Blender Learning Materials.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "index.md"
+                "file": "스터디/3D/Blender/Blender Learning Materials.md"
               }
             }
           }
@@ -177,6 +177,11 @@
   },
   "active": "3933ce8302f7c6f5",
   "lastOpenFiles": [
+    "index.md",
+    "스터디/3D/Blender/Blender Learning Materials.md",
+    "스터디/3D/Blender",
+    "스터디/3D/R3F",
+    "스터디/3D",
     "Excalidraw/lec10.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week1 -Intro To Racket.md",
     "스터디/프로그래밍/CS/02-Core/6006/Lecture 10 - Depth First Search.md",
@@ -184,7 +189,6 @@
     "스터디/프로그래밍/CS/02-Core/6006/Recitation 5 - Linear Sorting.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week4 - higher order functions.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week5.md",
-    "index.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week3.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Week2.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Programming Language, PartB,UW.md",
@@ -206,7 +210,6 @@
     "Excalidraw/블로그용excalidraw.md",
     "Excalidraw/소상공인지도.excalidraw.md",
     "about.md",
-    "Project/DfMA/파라다이스 시티(2018).md",
     "assets/Pasted image 20240523171033.png",
     "assets/Pasted image 20240523170852.png",
     "assets/Pasted image 20240523170806.png",
@@ -222,9 +225,6 @@
     "_canvas/꿈 노트.canvas",
     "Project/DfMA",
     "HTML import",
-    "Project/지도 프로젝트",
-    "assets/Coursera SD6DW57ZV8KH.pdf",
-    "assets/Coursera VSXXHWE29XZN.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
