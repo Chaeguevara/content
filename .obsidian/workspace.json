@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스터디/3D/Blender/Blender Learning Materials.md",
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ef156ad41a82d98a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-04 23.04.25.excalidraw.md"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스터디/3D/Blender/Blender Learning Materials.md",
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스터디/3D/Blender/Blender Learning Materials.md",
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스터디/3D/Blender/Blender Learning Materials.md"
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md"
               }
             }
           },
@@ -147,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "스터디/3D/Blender/Blender Learning Materials.md"
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md"
               }
             }
           }
@@ -177,8 +187,15 @@
   },
   "active": "3933ce8302f7c6f5",
   "lastOpenFiles": [
-    "index.md",
+    "assets/Pasted image 20240604230857.png",
+    "Excalidraw/Drawing 2024-06-04 23.04.25.excalidraw.md",
+    "assets/Pasted Image 20240604230732_640.png",
+    "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
+    "assets/Pasted Image 20240604230544_610.png",
     "스터디/3D/Blender/Blender Learning Materials.md",
+    "Omnivore/2024-06-02/A roadmap for learning blender-3d - r-blender.md",
+    "Omnivore/2024-06-02",
+    "index.md",
     "스터디/3D/Blender",
     "스터디/3D/R3F",
     "스터디/3D",
@@ -206,16 +223,10 @@
     "Excalidraw/RL Figures.excalidraw.md",
     "Excalidraw/threejs.md",
     "Excalidraw/Drawing 2024-05-06 20.32.17.excalidraw.md",
-    "Excalidraw/다시excalidraw.md",
-    "Excalidraw/블로그용excalidraw.md",
-    "Excalidraw/소상공인지도.excalidraw.md",
-    "about.md",
     "assets/Pasted image 20240523171033.png",
     "assets/Pasted image 20240523170852.png",
     "assets/Pasted image 20240523170806.png",
     "assets/Pasted image 20240523170715.png",
-    "assets/Pasted image 20240523165841.png",
-    "assets/Pasted image 20240523165819.png",
     "Omnivore/2024-05-03",
     "Omnivore",
     "Excalidraw/Scripts/Untitled.canvas",
@@ -224,7 +235,6 @@
     "Project/AEC Software Engineering",
     "_canvas/꿈 노트.canvas",
     "Project/DfMA",
-    "HTML import",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
