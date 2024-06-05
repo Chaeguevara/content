@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b76825c062be6209",
+        "id": "ae955dcdca319638",
         "type": "tabs",
         "children": [
           {
-            "id": "3933ce8302f7c6f5",
+            "id": "0f0d5eb14da15d81",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,16 +16,6 @@
                 "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ef156ad41a82d98a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-04 23.04.25.excalidraw.md"
               }
             }
           }
@@ -185,12 +175,13 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "3933ce8302f7c6f5",
+  "active": "0f0d5eb14da15d81",
   "lastOpenFiles": [
-    "assets/Pasted image 20240604230857.png",
+    "스터디/프로그래밍/CS/02-Core/6006/6006.md",
     "Excalidraw/Drawing 2024-06-04 23.04.25.excalidraw.md",
-    "assets/Pasted Image 20240604230732_640.png",
     "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
+    "assets/Pasted image 20240604230857.png",
+    "assets/Pasted Image 20240604230732_640.png",
     "assets/Pasted Image 20240604230544_610.png",
     "스터디/3D/Blender/Blender Learning Materials.md",
     "Omnivore/2024-06-02/A roadmap for learning blender-3d - r-blender.md",
@@ -211,7 +202,6 @@
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartB/Programming Language, PartB,UW.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Week1-Code.md",
     "스터디/프로그래밍/CS/02-Core/Programming Languages/PartA/Programming Language, PartA, UW.md",
-    "스터디/프로그래밍/CS/02-Core/6006/6006.md",
     "스터디/프로그래밍/CS/01-Intro/6.0001.md",
     "스터디/프로그래밍/CS/01-Intro/CS107-Programming Paradigms.md",
     "스터디/프로그래밍/CS/01-Intro/6.S096-Introduction To C and C++.md",
@@ -226,7 +216,6 @@
     "assets/Pasted image 20240523171033.png",
     "assets/Pasted image 20240523170852.png",
     "assets/Pasted image 20240523170806.png",
-    "assets/Pasted image 20240523170715.png",
     "Omnivore/2024-05-03",
     "Omnivore",
     "Excalidraw/Scripts/Untitled.canvas",

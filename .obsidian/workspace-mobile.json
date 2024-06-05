@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about.md",
+                "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
                 "mode": "preview",
                 "source": true
               }
@@ -126,7 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "about.md",
+            "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "about.md",
+            "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -155,7 +155,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "about.md"
+            "file": "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md"
           }
         }
       }
@@ -180,6 +180,8 @@
   },
   "active": "ffe1351284603fd2",
   "lastOpenFiles": [
+    "assets/IMG_4195.jpeg",
+    "about.md",
     "index.md",
     "독서/독서 리스트/움베르토에코-논문 잘 쓰는 법.md",
     "독서/독서 계획.md",
@@ -209,8 +211,6 @@
     "_00_private/압구정 현대아파트.md",
     "스터디/강화학습/HugginFace/Unit8-2 POO.md",
     "스터디/프로그래밍/코테/LeetCode/02-Medium/3. Longest Substring Without Repeating Characters.md",
-    "스터디/강화학습/HugginFace/Unit8-1-POO.md",
-    "스터디/프로그래밍/PyTorch/01.IntroToPyTorch/Datasets and DataLoaders.md",
     "assets/Pasted image 20231105094029.png",
     "assets/Pasted image 20231105113829.png",
     "assets/Pasted image 20231105114121.png",
