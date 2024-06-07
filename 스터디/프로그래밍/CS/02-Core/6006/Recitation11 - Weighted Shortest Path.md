@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-06-05
+lastmod: 2024-06-07
 ---
 올것이 왔다 weighted shortest path. 이제 수업 내용은 weighted shortest path를 이용해 최단거리를 구하는 알고리즘에 대해서 알아본다. Sorting부분에서도 그랬듯, 하나의 내용에 대해 다각도로 분석하고 다양한 알고리즘을 비교분석하는게 주된 내용이다.
 

@@ -1,6 +1,6 @@
 ---
 title: AEC+O 잡부
-lastmod: 2024-06-01
+lastmod: 2024-06-07
 ---
 ![[Pasted image 20240318215551.png]]
 
@@ -79,6 +79,9 @@ lastmod: 2024-06-01
 - 멀티캠퍼스 우수교육생
 
 ---
-# 8 [[수강]]
-- [[DeepLearning|DeepLearning Specialization, DeepLearning.AI]]
-- [[수강증명/Programming Language, PartA, UW|Programming Language, PartA, UW]]
+# 8 수강
+- Basic Algorithm
+	- [[6.0001]]
+	- [[6006]]
+- Intermediate CS Concepts
+	- [[Programming Language, PartA, UW]]
