@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-06-07
+lastmod: 2024-06-08
 ---
 올것이 왔다 weighted shortest path. 이제 수업 내용은 weighted shortest path를 이용해 최단거리를 구하는 알고리즘에 대해서 알아본다. Sorting부분에서도 그랬듯, 하나의 내용에 대해 다각도로 분석하고 다양한 알고리즘을 비교분석하는게 주된 내용이다.
 
@@ -39,3 +39,45 @@ w2 = {
 만약 두 노드간 음수가 있는 cycle이 있다면 어떻게 될까? 그렇게 되면 해당 부분만 돌게 되며, 수학적으로는 최단거리가 되지만 음의 무한대인 최단 거리가 된다. 이는 논리적으로 틀리기 때문에 이런경우를 undefined라고 한다. 반면 노드와 노드 사이가 연결되지 않은 경우를 양의 무한대로 정의한다. 이는 수학적 귀납법상 편의를 위해서다.
 
 ![[IMG_4195.jpeg]]
+
+# 4 Relaxation
+> [!info] relaxation을 이해하고 SSSP(Single Source Shortest Path)에서 Relaxation을 이해하는 과정
+> 여기서는 DAG에 대한 Relaxation
+
+**relaxation algorithm 이란?**
+- 최적값을 찾는 알고리즘을 뜻함. 어떤 문제에 대해 최적이 아닌 상태에서 시작해 반복적으로 알고리즘을 수행해 최적의 해결책을 찾는 알고리즘
+	- Rhino + Grasshopper의 캥거루
+	- 아마도 hill climbing과 같은 것들도? gradient descent
+
+**SSSP에서 Relaxation**
+- 최단 거리의 weight를 찾는 것
+- $\delta(s,v)$는 source `s` vertex `v`까지의 최단거리의 weight를 뜻함
+	- 그러니까 $\delta(s,v)$ 를 찾으면 된다는 말씀!
+- 그럼 non optimal한 상태는 무엇이냐
+	- `s`에서 `v`까지 거리의 추정치를 $d(s,v)$라고 쓴다
+	- $d(s,v)$를 우선 모두다 최대값으로 설정한다
+		- $d(s,s)$ ==자기자신까지 거리는 0이니까 여기는 주의해주자==
+- Relax
+	- $d(s,v)$ 가 $\delta(s,v)$ 가 될때까지 **relax**를 해준다!
+	- $d(s,v)=\delta(s,v)$ 가 됬을 때 **fully relaxed**라고 표현한다고 그러네
+
+그럼 위 내용을 pseudo code로 표현하면 아래와 같다
+
+```python
+def general_relax(Adj, w, s): #Adj: adjacency list, w: weight(?), s: start
+	d = [float('inf') for _ in Adj] # s로 부터 각 노드에 대한 d(s,v)
+	parent = [None for _ in Adj] # parent tree를 또 만드려고 그러네?
+	d[s], parent[s] = 0, s # 자기 자신의 거리는 0, 자기자신의 부모는 자기자신
+	while True:
+		relax some d[v] ?? # 여기에 relaxation
+	return d,parent
+```
+> [!question] 위 알고리즘은 DAG를 가정하고 하는거였나??
+> Yes.
+
+**이제 알아봐야 할 것은 언제 알고리즘을 종료하고, 어떻게 relax를 하는지 알아봐야함**
+
+수업에서는 귀납법을 사골우리듯 계속 사용한다. 그러나 나는 아직 귀납법이 잘 이해가 되지는 않는다. 그러므로 그림을 그려본다. vertex `v`에 대해서, $\delta(s,v)$가 진짜 SSSP라면, `v`향해 들어오는 그 어떤 노드 `u`로 부터 weight를 계산해도 그 값보다 작아야 한다. 다시 말하면 $\delta(s,v) > d(s,u)+ w(u,v)$라면 $\delta(s,v) = d(s,u)+ w(u,v)$ 로 업데이트를 해줘야한다ㅏ. 아래 그림을 살펴보면 대략 감을 잡을 수 있다.
+
+![[Pasted image 20240608142605.png]]
+
