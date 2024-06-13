@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-06-08
+lastmod: 2024-06-13
 ---
 올것이 왔다 weighted shortest path. 이제 수업 내용은 weighted shortest path를 이용해 최단거리를 구하는 알고리즘에 대해서 알아본다. Sorting부분에서도 그랬듯, 하나의 내용에 대해 다각도로 분석하고 다양한 알고리즘을 비교분석하는게 주된 내용이다.
 
@@ -80,4 +80,37 @@ def general_relax(Adj, w, s): #Adj: adjacency list, w: weight(?), s: start
 수업에서는 귀납법을 사골우리듯 계속 사용한다. 그러나 나는 아직 귀납법이 잘 이해가 되지는 않는다. 그러므로 그림을 그려본다. vertex `v`에 대해서, $\delta(s,v)$가 진짜 SSSP라면, `v`향해 들어오는 그 어떤 노드 `u`로 부터 weight를 계산해도 그 값보다 작아야 한다. 다시 말하면 $\delta(s,v) > d(s,u)+ w(u,v)$라면 $\delta(s,v) = d(s,u)+ w(u,v)$ 로 업데이트를 해줘야한다ㅏ. 아래 그림을 살펴보면 대략 감을 잡을 수 있다.
 
 ![[Pasted image 20240608142605.png]]
+
+
+이제 위 알고리즘을 코드로 나타내면 아래와 같다
+```python
+def try_to_relaxA(Adj,w,d,parent,u,v):
+	if d[v] > d[u] + w(u,v):
+		d[v] = d[u] + w(u,v)
+		parent[v] = u
+```
+뒤에는 수학증명이 나오는데 어렵다. 넘어가자
+
+
+# 5 DAG Relaxation
+음 중간에 어려운 부분을 떼놓고 직관에 의존해 이야기해보면 이렇다.
+1. DAG에는 Negative Cycle이 존재하지 않는다
+2. 따라서 DAG Relaxation은 반드시 끝나게 되어있다
+3. (여기는 잘 이해가 안가지만) 한 시작 노드에 대해 topo sort를 한 후 이 순서대로 relaxation을 수행하면 최단거리를 구할 수 있다
+4. 위 1,2,3의 과정을 거치는 알고리즘을 `DAG Relaxation`이라 한다
+
+대략 내 말로 해보면 이정도로 풀이해볼 수 있다. DAG는 Cycle이 없다. 따라서, 정렬을 수행할 수 있다. 이전 챕터에서 배운 DFS를 이용하면 topo sort를 할 수 있다. topo sort는 단순히 순서만 하기 떄문에 여기에 weight를 계산하는 relaxation을 더하면 DAG Relaxation을 통해 최단 거리를 구할 수 있다.
+
+```python
+def DAG_Relaxation(Adj, w,s):
+	_,order = dfs(Adj,s)
+	order.revers()
+	d = [float('inf') for _ in Adj]
+	parent = [None for _ in Adj]
+	d[s], parent[s] = 0, s
+	for u in order:
+		for v in Adj[u]:
+		try_to_relax(Adj,w,d,parent,u,v)
+	return d,parent
+```
 
