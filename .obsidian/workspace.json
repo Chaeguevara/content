@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Project/DfMA/오사카 명품관 외장 패널 최적화(2019).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "997343c692493fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "about.md"
               }
             }
           },
@@ -147,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "index.md"
+                "file": "about.md"
               }
             }
           }
@@ -175,15 +188,15 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "24fc74bd63af882c",
+  "active": "997343c692493fe6",
   "lastOpenFiles": [
-    "about.md",
+    "index.md",
+    "assets/Pasted image 20240616135150.png",
     "Project/DfMA/오사카 명품관 외장 패널 최적화(2019).md",
+    "about.md",
     "Project/DfMA/파라다이스 시티(2018).md",
     "스터디/프로그래밍/CS/02-Core/6006/Recitation11 - Weighted Shortest Path.md",
-    "assets/Pasted image 20240616135150.png",
     "assets/Pasted image 20240616135133.png",
-    "index.md",
     "Project/3D Contetns",
     "assets/Pasted image 20240608142605.png",
     "Excalidraw/rectation11.md",
